@@ -28,8 +28,8 @@
             @auth
                 <div class="flex items-center gap-4">
                     <div class="flex items-center gap-2.5 bg-a8dadc border border-[#a8dadc]/20 px-3.5 py-1.5 rounded-full">
-                        <div class="w-2 h-2 rounded-full bg-[#a8dadc] animate-pulse"></div>
-                        <span class="text-xs font-semibold text-[#f1faee]">{{ Auth::user()->name }}</span>
+                        <div class="w-2 h-2 rounded-full bg-black animate-pulse"></div>
+                        <span class="text-xs font-semibold text-black">{{ Auth::user()->name }}</span>
                         @if(Auth::user()->is_admin)
                             <span class="text-[10px] uppercase font-extrabold bg-[#e63946]/20 text-[#e63946] border border-[#e63946]/30 px-2 py-0.5 rounded-full">Admin</span>
                         @endif
